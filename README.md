@@ -29,28 +29,6 @@ Neural network quantization is a crucial technique for deploying deep learning m
 - TensorFlow Lite deployment
 - TensorRT optimization and runtime
 
-## Getting Started
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/nn-quantization-comparison.git
-   cd nn-quantization-comparison
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Explore the platform-specific directories for examples and benchmarks.
-
-## Usage
-
-Each platform has its own directory with specific instructions and examples:
-
-- `/pytorch`: PyTorch quantization and deployment examples
-- `/tensorflow-lite`: TensorFlow Lite quantization and deployment examples
-- `/tensorrt`: TensorRT optimization and deployment examples
 
 ### Example: PyTorch Quantization
 
@@ -84,33 +62,8 @@ We provide benchmarks for various models and hardware platforms, demonstrating t
 | TensorRT | BERT | FP16 | 5.2 | 438.0 |
 | TensorRT | BERT | INT8 | 2.8 | 109.5 |
 
-## Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature-branch`
-3. Make your changes and commit: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature-branch`
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - NVIDIA for TensorRT
 - PyTorch team for PyTorch Mobile
 - TensorFlow team for TensorFlow Lite
-
-## Contact
-
-For any queries, please open an issue in the GitHub repository or contact the maintainers directly.
-
----
-
-We hope this project helps you optimize your neural networks for deployment across various platforms. Happy quantizing!
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/30956560/5254a8e6-2068-46ed-a7a9-a8d954c26f0d/Effective-Comparision-of-NN-Analysis.pptx
